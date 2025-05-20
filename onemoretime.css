@@ -1,0 +1,943 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Abaca-Regular';
+    
+    
+  }
+  
+.hero-sap-hana {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    /* Adjust as needed */
+  }
+  
+  .hero-image-sap-hana {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay-sap-hana {
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    width: 80%;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 10%;
+  
+  
+  }
+  
+  .overlay-sap-hana h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 400;
+    color: #ffff;
+  }
+  
+  .overlay-sap-hana p {
+    font-size: 18px;
+    margin: 5px 0 0;
+  }
+  
+  .divider-sap-hana {
+    color: red;
+    font-weight: bold;
+    margin-left: -26px;
+  
+  
+  }
+  
+  .fusion-span-sap-hana {
+    margin-left: 0%;
+  }
+  
+  
+  /* ////////////////////////////////////////////////////////////////////// */
+
+
+
+ .oracle-section-salesforce{
+
+    width: 100%;
+    height: 612px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .oracle-bg-design-salesforce{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 50px 0 0 0;
+    background-color: #fff;
+    background-image: url('./images/banner.png');
+  
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+  }
+  
+  /* Container  */
+  .oracle-container-salesforce {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+  
+  }
+  
+  .oracle-text-container-salesforce {
+    width: 33%;
+    /* padding-right: 20px; */
+    padding-left: 11%;
+    height: 10%;
+  }
+  
+  .oracle-text-salesforce{
+    width: 90%;
+    margin-bottom: 15%
+  }
+  
+  .oracle-text-salesforce h1 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #343434;
+    font-weight: 500;
+    margin-bottom: 3%;
+  }
+  
+  .oracle-text-salesforce p {
+    font-size: 17px;
+    color: #555;
+    line-height: 1.6;
+    
+  }
+  
+   /* Right Side Image  */
+  /* .oracle-image-fusion {
+    width: 37%;
+    padding-left: 5%
+  } */
+  
+  .oracle-image-salesforce img {
+    width: 100%;
+    max-width: 700px;
+    min-width: 400px;
+    border-radius: 5px;
+  }
+/* //////////////////////////////////////////////////////////////// */
+
+/* body {
+    padding: 0;
+    margin: 0;
+    font-family: Matteo;
+  } */
+  
+
+  .why-abacays-1-salesforce-2{
+    background-color: #F6F6F6;
+    width: 100%;
+    margin-top: 4%
+  }
+  .why-abacasys-salesforce-2 {
+    max-width: 1000px;
+    margin: auto;
+    padding: 72px;
+  }
+  
+  .why-abacasys-salesforce-2 h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    width: 45%
+   
+   
+  }
+  
+  .features-grid-salesforce-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px 60px;
+    justify-items: start;
+  }
+  
+  .feature-salesforce-2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    font-size: 18px;
+    text-align: left;
+    
+  }
+  
+  .dot-salesforce-2 {
+    width: 10px;
+    height: 10px;
+    background-color: #e60000;
+    border-radius: 50%;
+    margin-top: 24px;
+  } 
+
+
+  /* /////////////////////////////////////////////////////// */
+
+/* Main container styling  */
+.fusion-services-container-salesforce-2 {
+    background-image: url('./images/background2.00000000.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto !important;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fusion-services-salesforce-2 {
+    padding: 40px 0 40px 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  
+  
+  /* Heading section */
+  .fusion-services-container-salesforce-2 h2 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-left: 121px
+  
+  
+  }
+  
+  .fusion-services-container-salesforce-2 p {
+    font-size: 20px;
+    color:white;
+    margin-left: 40px;
+    line-height: 27px;
+    letter-spacing: 1px;
+  
+  }
+  
+  /* Services grid */
+  .services-grid-salesforce-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10%;
+    width: 90%;
+    margin-left: 80px;
+    line-height: 37px;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  
+  /* Individual service box */
+  .service-item-salesforce-2 {
+    /* background: rgba(255, 255, 255, 0.05); */
+    padding: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  /* Service titles */
+  .service-item-salesforce-2 h3 {
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 37px
+  }
+  
+  /* List inside services */
+  .service-item-salesforce-2 ul {
+    list-style: none;
+    padding-left: 0;
+    text-decoration: none;
+  }
+  
+  .service-item-salesforce-2 ul p {
+    font-size: 20px;
+    color:white;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 22px;
+    text-decoration: none;
+  
+  }
+  
+  /* .service-item-mendix ul li::before {
+    content: "•";
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+  } */
+  .bottom-banner-salesforce-2{
+    background-image: url(./images/footer\ 2.0.png);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Matteo;
+  }
+  .bottom-banner-salesforce-2 h6 {
+    width: 16%;
+    border-radius: 5px;
+    font-size: 17px;
+    
+    padding: 10px;
+    /* border: 1px solid black; */
+    padding-left: 43%;
+  }
+  .bottom-banner-salesforce-2 p {
+    font-size: 25px;
+  }
+  .book-cons-salesforce-2{
+    padding:  12px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+    opacity: 1;
+  
+  
+  }
+
+  /* //////////////////////////////////////////////////////////////////////////*/
+
+  .apex-section-salesforce-2 {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .apex-container-salesforce-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1313px; 
+       margin: auto;
+    gap: 109px;
+  }
+  
+  .apex-image-salesforce-2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .apex-image-salesforce-2 {
+    flex: 1 1 400px;
+    text-align: center;
+  }
+  
+  .apex-content-salesforce-2 {
+    flex: 1 1 400px;
+    margin-bottom: 128px;
+  }
+  
+  .apex-content-salesforce-2 h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #343434;
+    font-weight: 300;
+  }
+  
+  .apex-content-salesforce-2 p {
+    font-size: 19px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .cta-button-salesforce-2 {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 400;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button-salesforce-2:hover {
+    background-color: #c92a35;
+  }
+
+/* ////////////////////////////////////////////////////// */
+  
+.section-industries-salesforce-2 {
+    width: 100%;
+    background: rgb(246, 246, 246);
+    background: linear-gradient(0deg, rgba(246, 246, 246, 1) 66%, rgba(255, 255, 255, 1) 66%);
+  }
+  
+  .industries-salesforce-2 {
+    padding: 50px 20px;
+    width: 80%;
+    margin: auto;
+  
+  
+  
+  }
+  
+  .industries-salesforce-2 .line-sap-hana {
+    height: 3px;
+    background-color: red;
+    width: 13%;
+    margin-bottom: 35px;
+  
+  }
+  
+  .industries-heading-1-salesforce-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .industries-p-sap-hana {
+  
+    margin-bottom: 30px;
+    font-size: 20px;
+  
+  }
+  
+  .industries-salesforce-2 h2 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  
+  }
+  
+  .industries-salesforce-2 p {
+  
+    margin-bottom: 56px;
+    font-size: 20px;
+  
+  }
+  
+  .grid-container-salesforce-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+  
+  .industry-salesforce-2 {
+  
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .industry-salesforce-2:hover {
+    transform: translateY(-5px);
+  }
+  
+  .industry-salesforce-2 img {
+    width: 100%;
+    height: 286px;
+    object-fit: cover;
+  }
+  
+  .industries-heading-salesforce-2 .red-line-sap-hana {
+    width: 4px;
+    height: 20px;
+    background-color: red;
+  }
+  
+  .industries-heading-salesforce-2 {
+    display: flex;
+    align-items: center;
+    /* Align items in the center */
+    gap: 10px;
+    /* Space between the red line and h3 */
+    padding-left: 20px;
+  }
+  
+  .industry-salesforce-2 p {
+    padding-left: 35px;
+  }
+  
+  
+  .industry-salesforce-2 h3 {
+    margin: 15px 0 5px;
+    font-size: 24px;
+    position: relative;
+    font-weight: 400;
+    padding-bottom: 8px;
+    color: black;
+    padding-right: 10px;
+  }
+  
+  .industry-salesforce-2 p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    padding-right: 10px;
+    font-family: matteo;
+  
+  }
+
+  /* /////////////////////////////////////////////////////////////////////// */
+
+  .flex-1{
+    display: flex;
+      align-items: unset;
+      /* margin-top: 72px; */
+      /* height: 363px; */
+      margin: 49px
+  
+  }
+  
+  
+  
+  .container {
+   width: 100%;
+   height: 100%;
+    margin-left: 10%;
+  }
+  
+  .case-study {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  
+  .bullet {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 8px;
+  }
+  
+  .content h3 {
+    margin: 0 0 10px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  .content p {
+    margin: 0;
+    font-size: 22px;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  .cta {
+    font-size: 24px;
+    margin-top: 40px;
+    color: #444;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************************************************** */
+
+@media (max-width: 1638px) {
+    .home-p-container-sap-hana {
+      margin-bottom: 20px;
+    }
+  
+    .overlay-sap-hana {
+      bottom: 5%;
+    }
+    .industry-salesforce-2 h3 {
+        font-size: 22px;
+    
+      }
+
+      .industry-salesforce-2 p {
+        font-size: 17px;
+        font-weight: 400;
+      }
+  }
+
+
+
+  
+@media (max-width: 1245px) {
+   
+    .oracle-image-salesforce {
+        width: 45%;
+      }
+      .fusion-services-container-salesforce-2 p {
+        font-size: 18px;
+      }
+    
+      .service-item-salesforce-2 ul {
+        list-style-type: disc !important;
+        text-decoration: none;
+      }
+    
+      .service-item-salesforce-2 ul p {
+        font-size: 18px;
+      }
+    
+      .service-item-salesforce-2 h3 {
+        font-size: 23px;
+      }
+      .industry-salesforce-2 h3 {
+        font-size: 19px;
+      }
+
+    
+
+}
+
+@media (max-width: 1075px) {
+  .oracle-text-container-salesforce {
+    width: 41%;
+  }
+}
+
+
+      
+
+
+
+@media (max-width: 1024px) {
+
+    .oracle-text-container-salesforce {
+        width: 53%;
+        /* padding-right: 20px; */
+        padding: 43px;
+      }
+
+      .service-item-salesforce-2 {
+        width: 88%;
+      }
+
+      .fusion-services-container-salesforce-2 h3 {
+        font-size: 32px;
+      }
+    
+      .fusion-services-salesforce-2 {
+        width: 90%;
+      }
+    
+      .service-item-salesforce-2 h3 {
+        font-size: 22px;
+    }
+    .grid-container-salesforce-2 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+      }
+    
+      .industries-salesforce-2 {
+        width: 90%;
+        padding: 40px 15px;
+      }
+    
+      .industries-salesforce-2 h2 {
+        font-size: 24px;
+      }
+    
+      .industry-salesforce-2 h3 {
+        font-size: 20px;
+      }
+    
+      .industry-salesforce-2 p {
+        font-size: 16px;
+        padding-left: 20px;
+      }
+
+
+}
+
+@media (max-width: 886px) {
+
+    
+  .oracle-container-salesforce {
+    flex-direction: column;
+  }
+
+  .oracle-section-salesforce {
+    height: auto;
+  }
+
+  .oracle-bg-design-salesforce {
+    height: auto;
+  }
+
+  .oracle-text-container-salesforce {
+    width: 90%;
+    padding: 0;
+  }
+
+  .oracle-text-salesforce {
+    width: 100%;
+  }
+
+  .oracle-image-salesforce {
+    width: 90%;
+    margin-top: 40px;
+
+  }
+
+  .oracle-image-salesforce img {
+    min-width:
+      250px;
+  }
+  .services-grid-salesforce-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .fusion-services-container-salesforce-2 h2 {
+    margin-left: 112px;
+  }
+ 
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    .industries-heading-salesforce-2 {
+        padding-left: 15px;
+      }
+      .fusion-services-container-salesforce-2 p {
+        font-size: 16px;
+    }
+
+    .service-item-salesforce-2 ul p {
+        font-size: 16px;
+      }
+
+      .apex-container-salesforce-2 {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .apex-content-salesforce-2 {
+        padding: 0 10px;
+      }
+
+      .grid-container-salesforce-2 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+      }
+    
+      .industries-salesforce-2 h2 {
+        font-size: 22px;
+      }
+    
+      .industries-salesforce-2 p {
+        font-size: 14px;
+      }
+    
+      .industry-salesforce-2 h3 {
+        font-size: 18px;
+      }
+    
+      .industry-salesforce-2 p {
+        font-size: 14px;
+        padding-left: 15px;
+      }
+    
+      .industries-heading-salesforce-2 {
+        padding-left: 15px;
+      }
+    
+      .industry-salesforce-2 img {
+        height: 220px;
+      }
+
+    
+}
+
+@media (max-width: 768px) {
+
+  .why-abacasys-salesforce-2 h2 {
+   
+    width: 86%;
+}
+}
+
+
+@media (max-width: 531px) {
+
+    .service-item-salesforce-2 {
+        padding: 0;
+        width: 75%;
+      }
+
+      .fusion-services-container-salesforce-2 h3 {
+        font-size: 26px;
+      }
+
+     
+
+
+
+}
+
+@media (max-width: 480px) {
+
+    .industries-salesforce-2 {
+
+        padding: 30px 10px;
+      }
+    
+      .industries-salesforce-2 h2 {
+        font-size: 20px;
+        text-align: center;
+      }
+    
+      .industries-salesforce-2 p {
+        font-size: 14px;
+      }
+    
+      .grid-container-salesforce-2 {
+        gap: 15px;
+      }
+    
+      .industry-salesforce-2 {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+      }
+    
+      .industry-salesforce-2 img {
+        height: 180px;
+      }
+  
+      .industries-heading-salesforce-2 {
+        padding-left: 10px;
+      }
+    
+      .industry-salesforce-2 p {
+        font-size: 14px;
+        padding-left: 27px;
+    
+      }
+    
+      .industry-salesforce-2 h3 {
+        font-size: 16px;
+      }
+      .why-abacasys-salesforce-2 h2 {
+        /* font-size: 24px;
+        margin-bottom: 50px; */
+        width: 79%;
+    }
+     
+
+}
+
+/* @media (max-width: 390px){
+  .fusion-services-salesforce-2 {
+    /* width: 124%; */
+  /* }
+
+} */ 
+
+
+
+@media (max-width: 384px) {
+     
+    .fusion-services-container-salesforce-2 h3 {
+        font-size: 22px;
+      }
+      .why-abacasys h2 {
+        /* font-size: 24px;
+        margin-bottom: 50px; */
+        width: 86%;
+    }
+    .overlay-sap-hana {
+     
+      margin-bottom: -50px;
+  }
+  .fusion-span-sap-hana {
+    margin-left: 0%;
+    font-size: 29px;
+    margin-bottom: 28px;
+}
+.overlay-sap-hana h1 {
+  font-size: 27px;
+  margin-bottom: 60px;
+}
+
+.flex-1 {
+  /* display: flex; */
+  /* align-items: unset; */
+  /* margin-top: 72px; */
+  /* height: 363px; */
+  margin: 8px;
+}
+
+
+}
+  
+
+ 
+
+
+
